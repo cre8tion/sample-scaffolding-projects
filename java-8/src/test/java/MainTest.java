@@ -1,10 +1,12 @@
 import com.sample.Main;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MainTest {
     @Test
     public void mainTest(){
         Main main = new Main();
-        main.main().equals("Hello World!");
+        assertEquals("Hello World!", main.main());
     }
 }
