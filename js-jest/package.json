@@ -1,0 +1,17 @@
+{
+  "name": "sample-js-jest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "private": true,
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
