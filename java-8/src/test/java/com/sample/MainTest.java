@@ -1,4 +1,5 @@
-import com.sample.Main;
+package com.sample;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
