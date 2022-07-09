@@ -1,3 +1,5 @@
+package com.sample
+
 fun main(args: Array<String>? = null): String {
     println("Hello World!")
 
